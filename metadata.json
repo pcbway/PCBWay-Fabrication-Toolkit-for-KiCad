@@ -1,0 +1,32 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "PCBWay Fabrication Toolkit",
+    "description": "Export production files (gerber file, bom file, pnp file) with one click.",
+    "description_full": "Toolkit for automating PCB fabrication process with KiCad and PCBWay.\n    Export the following production files to your local device with just one click:\n    1. Gerber files in correct format for production.\n    2. IPC-Netlist file.\n    3.Bom-file that includes all information of components.\n    4.Pick and Place-file used in assembly.\n    \n    About PCBWay:\n    \n    PCBWay is a Chinese company specializing in PCB prototyping and assembly, devotes to offer one-stop service. The build-time for standard PCB is 24hrs. Our upgraded material with TG150-160 costs as low as $5/10pcs while our remarkable after-sale services are standing by for any questions you may encounter.\n    As a sponsor of KiCad, we will always support its development.",
+    "identifier": "com.github.pcbway.PCBWay-Fabrication-Toolkit-for-KiCad",
+    "type": "plugin",
+    "author": {
+        "name": "PCBWay.com",
+        "contact": {
+            "web": "https://www.pcbway.com"
+        }
+    },
+    "maintainer": {
+        "name": "PCBWay.com",
+        "contact": {
+            "web": "https://www.pcbway.com"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/pcbway/PCBWay-Fabrication-Toolkit-for-KiCad"
+    },
+    "versions": [
+        {
+            "version": "0.0.1",
+            "status": "testing",
+            "kicad_version": "6.00"
+            
+        }
+    ]
+}
