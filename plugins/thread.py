@@ -47,11 +47,10 @@ class PCBWayThread(Thread):
 
             self.report(55)
 
-            temp_file = shutil.make_archive(self.process.get_basename() + "_gerber", 'zip', temp_dir + "gerber")
+            temp_file = shutil.make_archive(os.path.join(temp_dir, self.process.get_basename() + "_gerber"), 'zip', temp_dir + "gerber")
 
             self.report(60)
 
-            shutil.move(temp_file, temp_dir)
             shutil.rmtree(temp_dir + "gerber")
 
             self.report(65)
